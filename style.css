@@ -1,36 +1,38 @@
 /* style.css */
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body{
-  background: rgb(244, 211, 65);
-  color: black;
-  font-size: 25px;
-  font-family: Helvetica;
+    background: rgb(244, 211, 65);
+    color: black;
+    font-size: 25px;
+    font-family: Helvetica;
 }
+
 h1{
-  font-family: Nunito;
-  color: rgb(0, 0, 0);
-  font-weight: lighter;
-  font-size: 50px;
+    font-family: Nunito;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-size: 50px;
 }
 
 h1:hover {
-  text-decoration: none;
-  color: rgb(69, 69, 69);
+    text-decoration: none;
+    color: rgb(69, 69, 69);
 }
 
-img.center {
-  display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
-
-div {
-
+div.center {
     position: absolute;
-    top:200;
+    top: 50%;
     bottom: 0;
     left: 0;
     right: 0;
-
+    text-align: center;
     margin: auto;
+}
+
+div img{
+  display: block;
+  margin-top: 12.5%;
+  margin-left: auto;
+  margin-right: auto;
 }

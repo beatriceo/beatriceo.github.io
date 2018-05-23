@@ -20,14 +20,8 @@ h1:hover {
     color: rgb(69, 69, 69);
 }
 
-div.center {
-    position: relative;
-    /*top: 50%;
-    bottom: 0;*/
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin: auto;
+div {
+  text-align: center;
 }
 
 div img{
